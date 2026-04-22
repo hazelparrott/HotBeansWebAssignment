@@ -3,6 +3,7 @@ function validateForm() {
     let lname = document.getElementById("lname").value.trim();
     let phone = document.getElementById("phonenum").value.trim();
     let email = document.getElementById("email").value.trim();
+     let cv = document.getElementById("cvupload").files.length;
 
     if (fname === "" || lname === "" || phone === "" || email === "") //Sets validation to ensure fields are not empty and prevents submission if not validated
       {
