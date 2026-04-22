@@ -1,0 +1,68 @@
+
+
+section{background-color: midnightblue;
+         opacity: 75%;
+        border-radius: 4%;
+    border: px solid;}
+
+body{font-family:Arial, Helvetica, sans-serif; color: aliceblue;
+    background-image: url(mainbackground.jpg); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 100px;} 
+
+h1{text-align: center; text-decoration: underline;}
+h2{text-align: left; text-decoration: underline;}
+h3{text-decoration: underline;}
+
+header{display:flex;
+       flex-direction: column;
+       background-image:url(headerfooterbackground.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 100% 100%;
+       border-radius: 20%;
+       }
+
+.logo{max-width:350px;height: auto;}
+
+.established{ text-align: right; color: whitesmoke;}
+
+.halfhr{width:50%}
+
+.columndisplay{
+    display: flex;
+    flex-direction: column;}   
+
+nav{
+    text-align: right;
+         background-image: url(headerfooterbackground.jpg);
+     border-radius: 10%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 100% 100%;
+       padding-left: 0%;
+    }
+.bottomnav{font-size:small; text-align:center; border-radius: 10%; }
+
+
+footer{ 
+    font-size:x-small; 
+    text-align: center; 
+    color: antiquewhite;
+    background-image:url(headerfooterbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    
+    
+}
+
+.ApplicationForm{ border-radius:10%; text-align: center;background-color: midnightblue; opacity: 75%;}
+
+.workforus{text-align: center; ; opacity: 75%; background-color: midnightblue; border-radius: 10%;}
+
+a:link{color:whitesmoke; font-family: sans-serif}
+

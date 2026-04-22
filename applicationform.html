@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-UK"> 
+
+
+ <head>
+        <link rel="stylesheet" href="style.css">
+        
+ </head>
+ <body>
+    <header>
+            <img class="logo" src="HBlogo.png" alt="Hot Beans Logo"> 
+            <span class="established">Established 2016 -<br> Where Talent meets Technology</span>
+    </header>
+        <nav>
+            <a href="/homepage.html">Home Page</a>
+            <a href="/meettheteam.html">Meet the Team</a>
+            <a href="/vacancies.html">Vacancies</a>
+            <a href="/courses.html">Courses</a>
+    
+        </nav>
+        <hr>
+        <h1>Application Form</h1>
+
+        <p class="workforus"> Want to work for us? Just fill out your details below and attch your CV and we will get back to you!</p>
+
+    <form class="ApplicationForm" onsubmit="return validateForm()">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="phonenum">Phone Number:</label><br>
+        <input type="text" id="phonenum" name="phonenum"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+           
+        <label for="cvupload">Attach Cv here:</label><br>
+        <input type="file" id="cvupload" name="cvupload"><br>
+
+        <br>
+
+        <input type="submit" id="submit" name="submit" value="Submit"><br>
+        
+    </form>
+    <script src="app.js"></script> <!--Links JavaScript to validate form and give confirmation message upon submission-->
+    
+    <hr>
+
+    <footer>
+        <nav class="bottomnav">
+            <a href="/homepage.html">Home Page</a>
+            <a href="/meettheteam.html">Meet the Team</a>
+            <a href="/applicationform.html">Apply Here</a>
+            <a href="/courses.html">Courses</a>
+    
+        </nav>
+        
+        <p>Contact: Hot Beans Web at contact@hotbeansweb.uk or call 01452 123 456</p>
+        <p>Design, copy, images, photography, animation, video, code © 2026 Hot Beans Web Ltd - all rights reserved. Company No. 15091991</p> 
+    </footer>  
+ </body>
+</html>
