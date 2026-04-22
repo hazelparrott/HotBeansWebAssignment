@@ -9,6 +9,10 @@ function validateForm() {
         alert("Please fill in all fields before submitting the form.");
         return false; //Stops incomplete submissons
     }
+        if (cv === 0) {  // Ensures file is not left blank
+        alert("Please upload your CV before submitting.");
+        return false;
+    }
 
     alert("Form submitted!");
     return true; // Allows validated submission and displays message
